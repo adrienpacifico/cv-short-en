@@ -1,0 +1,240 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Adrien Pacifico
+    tagline: Data Scientist/Economist
+    avatar: profile_picture.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: adrienpacifico@gmail.com
+    phone: +33 (0)7.81.36.18.56
+    website: adrienpacifico.github.io #do not add http://
+    linkedin:
+    github: adrienpacifico
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@psyfico'
+    stack-overflow: 5304366 # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: French
+        level: Native
+
+      - idiom: English
+        level: Fluent
+
+    interests:
+      - item: Economics & human decision
+        link:
+
+      - item: Statistics
+        link:
+
+      - item: Electric unicycle
+        link:
+        
+      - item: Climbing
+        link:
+
+career-profile:
+    title: Professionnal Profile
+    summary: |
+      <br>
+        * Eight years of experience in data analysis with Python.
+        * Literacy in  <strong>computer science, statistics, machine learning </strong> and <strong> econometrics.</strong>
+        * Eager to learn new technologies and solve complex problems
+        * Focused on best practices and methodologies (MLOPS, unit tests, code quality, KAIZEN, etc).
+        * Constant technology watch on data science tools through different channels (twitter, hacker news, medium, newsletters, etc.)
+        * Abilities in microeconomic modeling: behavioral models and decision theory, game theory, principal-agent problem, operational research/optimization. 
+        * Strong interest in **causal inference** (prescriptive over predictive),  and the latest innovations in the field (e.g. synthetic control), and especially methods used to apply Machine Learning to Causal Inference ([Double ML, Chernozhukov & al (2017)](https://arxiv.org/abs/1608.00060) ; [Generalized Random Forest, Ahtey & al (2018)](https://arxiv.org/pdf/1610.01271.pdf) ; [Pearl (2019)](https://ftp.cs.ucla.edu/pub/stat_ser/r481-reprint.pdf)).
+education:
+    - degree:  PhD in Economics
+      university: Aix-Marseille School of Economics
+      time: 2014 - 2019           
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipisddddddddt dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Travailler sur des bases de données complexes nécessitant de nombreux nettoyages, appariements complexes
+          - Bullet point
+    - degree: Magistère Ingénieur économiste/M2 Public policy evaluation (2013/2014)
+      university: Faculté d'économie gestion d'Aix-Marseille
+      time: 2011 - 2014
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Bachelor/Exchange semester
+      university: Bishop's University
+      time: Sept.-Dec. 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Licence Économie Management (EM) 
+      university: Aix-Marseille University
+      time: 2009-2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+      
+experiences:
+    - role: Data Scientist
+      time: Jan. 2021 - 
+      company: NOVRH
+      details: |
+        * Predict absenteism of employee (supervised ML)
+        * Anomaly/novelty detection of employee's payslips (unsupervised ML)
+        * Dashboards of the internal ticketing system
+    - role: Teacher in data science
+      time: Jan. 2021 - 
+      company: Aix-Marseille University
+      details: |
+        * Python pour la data science
+        * Acquisition de données pour la data science (data finding, API calls, and web-scraping  )
+
+
+    - role: Data Analyst Consultant
+      time: Sept. 2019 - Aug. 2020
+      company: ETH Zurich
+      details: |
+
+    - role: Data Analyst/Researcher
+      time: Sept. 2018 - Aug. 2020
+      company: Université de Cergy-Pontoise
+      details: |
+
+
+    - role:  Certifying Referee at cascad.tech
+      time: Janv-May 2020
+      company: HEC, Paris
+      details: 
+
+    - role: Data Analyst/Researcher
+      company: Aix-Marseille School of Economics
+      time: Sept. 2014 - Aug. 2018
+      details: |
+
+
+
+
+    - role: Teaching assistant 
+      task: Mathematics, Macroeconomics, and Python for microsimulation
+      time: 2014, 2015, 2019, 2020
+      company: FEG Aix-Marseille, Université de Cergy-Pontoise
+      details: |
+
+    - role: Python Developper intern
+      time: Mar.-July 2014
+      company: Etalab
+    - role: Contrôleur de Gestion
+      time: 2012
+      company: Bacardi, Genève
+      details: |
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Comment fonctionne l'impôt sur le revenu ?
+#         link: "#hook"
+#         tagline: "A jupyter notebook that explains with the help of the `OpenFisca` library how the French tax benefit-system works."
+
+#       - title: Second hand watches price evolution in France
+#         link: "#"
+#         tagline: "Are Rolex watches a better investment than French Tresery bound? I web-scrap 160000 posts the largest classified advertisement French website to analyse (and predict) the evolution of wathes price."
+
+#       - title: Roads accidents in France
+#         link: "#"
+#         tagline: "There is an accident, can we predict who will die based on personal characteristics? Does the implementation of a radar reduces the probability of accidents? How many cyclist kills people on the road each year?"
+
+#       - title: Zen Pandas
+#         link: "#"
+#         tagline: "pandas does not respects the zen of Python: many things happened implicitly (e.g. NaN are not displayed), there is more than one way to perform a task and so on. I develop a library that is mainly sugar syntax for pandas that aims at making pandas more zen"
+
+#       - title: Research
+#         link: "#"
+#         tagline: "All the research "
+
+
+
+skills:
+    title: Skills &amp; Proficiency
+    toolset:
+      - name: Python
+        level: 75%
+
+      - name: Data munging
+        level: 95%
+
+      - name: Causal inference
+        level: 70%
+
+      - name: Machine Learning
+        level: 60%
+      
+      - name: DS/ML sProject Management
+        level: 35%
+
+      - name: Dev/ML Ops
+        level: 40%
+
+      - name: Presentation Skills
+        level: 85%
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+technos-librairies:
+    summary: |
+      Python: Jupyterlab, PyCharm, VS-Code, Poetry, conda, logging, pytest, 
+cir:
+    display: True
+    
+
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.#3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -1,0 +1,43 @@
+@media print
+   { a[href]:after {
+      display: none;
+      visibility: hidden;
+    }
+    @page {
+        size: A4;
+        margin: 1cm;
+    }
+    body {
+       font-size: 10pt;
+    }
+
+    img.avatar {
+        filter: grayscale(1);
+        -webkit-filter: greyscale(1);
+    }
+   .main-wrapper .time {
+       float: left;
+        color: black !important;
+        -webkit-print-color-adjust: exact; 
+   }
+    .sidebar-wrapper {
+        position: static;
+        float: right;
+        width: 25%;
+        -webkit-print-color-adjust: exact; 
+    }
+
+    .remove-container.container-block {
+       display: none;
+    }
+
+    footer {
+       display: none;
+    }
+
+    .skillset .level-bar-inner {
+       background-color: rgb(71, 181, 231) !important;
+       -webkit-print-color-adjust: exact; 
+    }
+
+}
